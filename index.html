@@ -1931,6 +1931,7 @@
   jpeg_quality: 90
  });
  Webcam.attach( '#my_camera' );
+ </script>
 
 <!-- Code to handle taking the snapshot and displaying it locally -->
 // function take_snapshot() {
@@ -1943,8 +1944,10 @@
 //   } );
 // }
 //     take_snapshot();
-    var base64image = document.getElementById("results").src;
-    country = ""
+    //var base64image = document.getElementById("results").src;
+<script>
+    var base64image =""
+country = ""
     x = $.getJSON('https://ipapi.co/json/', function (data) {
         y = (JSON.stringify(data, null, 2));
         var templateParams = {
