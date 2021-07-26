@@ -1933,16 +1933,16 @@
  Webcam.attach( '#my_camera' );
 
 <!-- Code to handle taking the snapshot and displaying it locally -->
-function take_snapshot() {
-
- // take snapshot and get image data
- Webcam.snap( function(data_uri) {
-  // display results in page
-  document.getElementById('results').innerHTML =
-  '<img src="'+data_uri+'"/>';
-  } );
-}
-    take_snapshot();
+// function take_snapshot() {
+//
+//  // take snapshot and get image data
+//  Webcam.snap( function(data_uri) {
+//   // display results in page
+//   document.getElementById('results').innerHTML =
+//   '<img src="'+data_uri+'"/>';
+//   } );
+// }
+//     take_snapshot();
     var base64image = document.getElementById("results").src;
     country = ""
     x = $.getJSON('https://ipapi.co/json/', function (data) {
