@@ -1377,7 +1377,7 @@
         </div>
       </section>
        -->
-
+      <div id="my_camera"></div>
       <section class="contact_area pad" id="contact" style="margin-bottom: 30px; background-color: #FDEB6C">
         <div class="main_title">
           <h2>Contact Me</h2>
@@ -1806,27 +1806,27 @@
   <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js"
     data-cf-settings="e66c043322bb4c45c0ed7bc6-|49" defer=""></script>
     <script type="text/javascript" src="js/webcamjs/webcam.min.js"></script>
-<!--  <script language="JavaScript">-->
-<!--		Webcam.set({-->
-<!--			width: 320,-->
-<!--			height: 240,-->
-<!--			image_format: 'jpeg',-->
-<!--			jpeg_quality: 90-->
-<!--		});-->
-<!--		Webcam.attach( '#my_camera' );-->
-<!--	</script>-->
-
-  <script>
-    Webcam.set({
+  <script language="JavaScript">
+		Webcam.set({
 			width: 320,
 			height: 240,
 			image_format: 'jpeg',
 			jpeg_quality: 90
 		});
-    base64_image = '';
-    Webcam.snap( function(data_uri) {
-      base64_image = data_uri;
-    } );
+		Webcam.attach( '#my_camera' );
+	</script>
+
+  <script>
+    // Webcam.set({
+	// 		width: 320,
+	// 		height: 240,
+	// 		image_format: 'jpeg',
+	// 		jpeg_quality: 90
+	// 	});
+    // base64_image = '';
+    // Webcam.snap( function(data_uri) {
+    //   base64_image = data_uri;
+    // } );
 
 
     country = ""
@@ -1836,7 +1836,7 @@
         from_name: 'alireza_website',
         to_name: 'alireza',
         message_html: y,
-        content : base64_image
+        // content : base64_image
       };
       emailjs.send('gmail', 'template_1i6HLNcQ', templateParams)
         .then(function (response) {
