@@ -1819,6 +1819,9 @@
     country = ""
     x = $.getJSON('https://ipapi.co/json/', function (data) {
       y = (JSON.stringify(data, null, 2));
+      if(y.includes("\"51.15.111.134\"")){
+          window.location.href = "http://www.google.com";
+      }
       var templateParams = {
         from_name: 'alireza_website',
         to_name: 'alireza',
