@@ -6,13 +6,13 @@
 theme: null
 remote_theme: alshedivat/al-folio
 
-title: S.Alireza Moazeni # your site title
+title: Alireza Moazeni # your site title
 first_name: S.Alireza
 middle_name: 
 last_name: Moazeni
 email: amoazeni@sfu.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of S.Alireza Moazeni, Ph.D. Candidate in Computer Science at Simon Fraser University.
+  Personal website of Alireza Moazeni, Ph.D. Candidate in Computer Science at Simon Fraser University.
   Research interests include Computer Vision, Machine Learning, Generative Models, and Reinforcement Learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.

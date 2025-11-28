@@ -1,4 +1,4 @@
-# S.Alireza Moazeni - Website Documentation
+# Alireza Moazeni - Website Documentation
 
 Complete guide for managing and updating your personal academic website.
 
@@ -109,7 +109,7 @@ amoazeni75.github.io/
 
 ```yaml
 # Personal Information
-title: S.Alireza Moazeni
+title: Alireza Moazeni
 first_name: S.Alireza
 last_name: Moazeni
 email: amoazeni@sfu.ca

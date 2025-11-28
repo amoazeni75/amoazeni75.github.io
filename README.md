@@ -1,4 +1,4 @@
-# S.Alireza Moazeni - Personal Academic Website
+# Alireza Moazeni - Personal Academic Website
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Famoazeni75.github.io)](https://amoazeni75.github.io)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
