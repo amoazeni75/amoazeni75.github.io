@@ -1,0 +1,202 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: S.Alireza Moazeni
+    - name: Email
+      value: amoazeni@sfu.ca
+    - name: Research Interests
+      value: Computer Vision, Machine Learning, Generative Models, Reinforcement Learning
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science
+      institution: Simon Fraser University, Vancouver, Canada
+      year: 2021 - Present
+      description:
+        - Focus on Computer Vision, Machine Learning, and Generative Models
+        - Supervised by Prof. Ke Li
+        
+    - title: B.Sc. in Computer Engineering (Artificial Intelligence and Computer Networks)
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: 2015 - 2020
+      description:
+        - Ranked in top 5% among ~100 undergraduate students
+        - Also completed minor in Electrical Engineering (Control Branch)
+        - Ranked 4th among ~35 undergraduate students in Electrical Engineering
+
+    - title: High School Diploma
+      institution: National Organization for Development of Exceptional Talents (NODET), Tehran, Iran
+      year: 2011 - 2015
+      description:
+        - Mathematics and Physics discipline
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "PAPR: Proximity Attention Point Rendering"
+      year: 2023
+      description:
+        - Neural Information Processing Systems (NeurIPS) - Spotlight
+        - Authors Yanshu Zhang*, Shichong Peng*, Alireza Moazeni, Ke Li
+
+    - title: "CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis"
+      year: 2022
+      description:
+        - Neural Information Processing Systems (NeurIPS) - Spotlight
+        - Authors Shichong Peng, Alireza Moazeni, Ke Li
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022-2023
+      items:
+        - Helmut & Hugo Eppich Family Scholarship - Ebco Eppich Award Competition, Simon Fraser University
+
+    - year: 2020
+      items:
+        - Direct Admission to graduate school (Ph.D.) in Computer Science - Artificial Intelligence, Simon Fraser University
+
+    - year: 2020
+      items:
+        - Direct Admission to graduate school (M.Sc.) in Computer Engineering - Artificial Intelligence (without nationwide entrance exam), Amirkabir University of Technology
+
+    - year: 2020
+      items:
+        - Ranked in top 5% among ~100 undergraduate students in Computer Engineering and IT Department, Amirkabir University of Technology
+
+    - year: 2017
+      items:
+        - Ranked 4th among ~35 undergraduate students in Electrical Engineering (Control), Amirkabir University of Technology
+
+    - year: 2015
+      items:
+        - Top 0.15% in Nationwide University Entrance Exam for B.Sc. in Math and Engineering (~250,000 applicants)
+
+    - year: 2013
+      items:
+        - 2nd place in RoboCup IranOpen 2013 - League Junior Soccer B Light Weight
+        - 1st place in RoboCup Helli (NODET) 2013 - League Junior Soccer B Light Weight
+
+    - year: 2010
+      items:
+        - 1st place in National Conference on Mathematics, Analytic Geometry and Spatial Orientation
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant - Machine Learning Course
+      institution: Simon Fraser University, Vancouver, Canada
+      year: Spring 2022, Spring 2023
+      description:
+        - Designed exercises, corrected assignments, and answered student questions
+        - Member of the Machine Learning Group
+
+    - title: Laboratory Instructor - C Programming
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: Sept 2020 - Feb 2021
+      description:
+        - Provided instruction and exercises for basic programming course
+        - Taught 24 newly admitted bachelor students
+
+    - title: Teaching Assistant - Internet of Things (IoT)
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: Sept 2020 - Feb 2021
+      description:
+        - Designed exercises, corrected assignments, and answered student questions
+
+    - title: Head of Teaching Assistants - Algorithm Design Course
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: Sept 2020 - Feb 2021
+      description:
+        - Planned and designed lesson exercises
+        - Created coordination between teaching staff members
+        - Designed online exams
+
+    - title: A.I. Developer and Product Manager
+      institution: i-Cliqq Company, Tehran, Iran - Zhuji, China
+      year: May 2016 - Aug 2020
+      description:
+        - Developed Maya iBox (intelligent Box) using C++ (Qt) on Linux
+        - Innovation in embroidery digitizing software using AI and image processing
+        - Used artificial intelligence, image processing techniques, and graph theory
+
+    - title: Teaching Assistant - Computational Intelligence
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: Sept 2019 - Feb 2020
+      description:
+        - Designed exercises, corrected assignments, and answered student questions
+
+    - title: Teaching Assistant - Computer Networks
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: Sept 2019 - Feb 2020
+      description:
+        - Designed exercises, corrected assignments, and answered student questions
+
+    - title: Teaching Assistant - Data Structures and Algorithms Design
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: Feb 2019 - July 2019
+      description:
+        - Designed exercises, corrected assignments, and answered student questions
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python (90%)
+        - C++ (Qt) (90%)
+        - Java (80%)
+        - PHP (70%)
+        - Assembly (70%)
+        - JavaScript (65%)
+        - HTML5 (80%)
+        - CSS3 (80%)
+    - title: Frameworks and Toolkits
+      items:
+        - PyTorch
+        - TensorFlow 2
+        - Keras
+        - OpenCV
+        - Django
+        - Laravel (PHP)
+        - Vue.js
+        - jQuery
+        - MySQL
+        - PostgreSQL
+        - Bootstrap
+        - WordPress
+        - Anaconda
+    - title: IDEs
+      items:
+        - IntelliJ IDEA
+        - PyCharm
+        - Visual Studio (C++, C#)
+        - XCode (iOS Development)
+        - Qt Desktop
+        - Spyder
+        - Eclipse
+        - PhpStorm
+        - Atmel Studio
+        - Code Vision
+        - GNS3
+        - Boson NetSim
+        - Proteus
+        - Altium Designer
+        - Model Sim SE
+        - Code Blocks (C++)
+    - title: Other Skills
+      items:
+        - Blockchain and Cryptocurrency
+        - Git
+        - VHDL
+        - Verilog
+        - Linux OS (Kali, Ubuntu, Debian, Lubuntu)
+        - Adobe Photoshop
+        - MVC Pattern
+        - Command Line Interface
+        - Microsoft Office Suite
+        - Embedded boards (Raspberry Pi, NanoPC)
+        - AVR
+

@@ -1,0 +1,31 @@
+---
+---
+
+@inproceedings{zhang2023papr,
+  abbr={NeurIPS},
+  title={PAPR: Proximity Attention Point Rendering},
+  author={Zhang*, Yanshu and Peng*, Shichong and Moazeni, Alireza and Li, Ke},
+  booktitle={Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+  pdf={https://arxiv.org/abs/2307.11086},
+  code={https://github.com/zvict/papr},
+  website={https://zvict.github.io/papr/},
+  selected={true},
+  abstract={Learning accurate and parsimonious point cloud representations of scene surfaces from scratch remains a challenge in 3D representation learning. Existing point-based methods often suffer from the vanishing gradient problem or require a large number of points to accurately model scene geometry and texture. To address these limitations, we propose Proximity Attention Point Rendering (PAPR), a novel method that consists of a point-based scene representation and a differentiable renderer. Our scene representation uses a point cloud where each point is characterized by its spatial position, foreground score, and view-independent feature vector. The renderer selects the relevant points for each ray and produces accurate colours using their associated features. PAPR effectively learns point cloud positions to represent the correct scene geometry, even when the initialization drastically differs from the target geometry. Notably, our method captures fine texture details while using only a parsimonious set of points. We also demonstrate four practical applications of our method: geometry editing, object manipulation, texture transfer, and exposure control.},
+  note={Spotlight}
+}
+
+@inproceedings{peng2022chimle,
+  abbr={NeurIPS},
+  title={CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis},
+  author={Peng, Shichong and Moazeni, Alireza and Li, Ke},
+  booktitle={Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+  pdf={https://openreview.net/pdf?id=5pvB6IH_9UZ},
+  code={https://github.com/niopeng/CHIMLE/tree/main/code},
+  website={https://github.com/niopeng/CHIMLE/},
+  selected={true},
+  abstract={A persistent challenge in conditional image synthesis has been to generate diverse output images from the same input image despite only one output image being observed per input image. GAN-based methods are prone to mode collapse, which leads to low diversity. To get around this, we leverage Implicit Maximum Likelihood Estimation (IMLE) which can overcome mode collapse fundamentally. IMLE uses the same generator as GANs but trains it with a different, non-adversarial objective which ensures each observed image has a generated sample nearby. Unfortunately, to generate high-fidelity images, prior IMLE-based methods require a large number of samples, which is expensive. In this paper, we propose a new method to get around this limitation, which we dub Conditional Hierarchical IMLE (CHIMLE), which can generate high-fidelity images without requiring many samples. We show CHIMLE significantly outperforms the prior best IMLE, GAN and diffusion-based methods in terms of image fidelity and mode coverage across four tasks, namely night-to-day, 16× single image super-resolution, image colourization and image decompression. Quantitatively, our method improves Fréchet Inception Distance (FID) by 36.9% on average compared to the prior best IMLE-based method, and by 27.5% on average compared to the best non-IMLE-based general-purpose methods.},
+  note={Spotlight}
+}
+

@@ -1,5 +1,10 @@
-
-preloader_1.gif
-preloader_3.gif
-preloader_4.gif
-preloader_2.gif
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
+*.gem
+.bundle
+.DS_Store
+backup/
