@@ -9,6 +9,26 @@ nav_order: 1
 
 ## Publications
 
+### Preprints & Under Review
+
+**PAPR Cut: Runtime Optimizations for Efficient Point-Based Neural Rendering**  
+**Alireza Moazeni**, George Shramko, Shichong Peng, Yanshu Zhang, Ke Li  
+*Preprint*
+
+**Intrinsic PAPR for Point-level 3D Scene Albedo and Shading Editing**  
+**Alireza Moazeni**, Shichong Peng, Yanshu Zhang, Chiraq Vashist, Ke Li  
+*Submitted to CVPR 2026*
+
+**PROSE: Point Rendering of Sparse-Controlled Edits to Static Scenes**  
+Yanshu Zhang, Shichong Peng, Mehran Aghabozorgi, **Alireza Moazeni**, Ke Li  
+*Submitted to CVPR 2026*
+
+**Illuminating Uncertainty in Masked Image Models**  
+Tristan Engst, **Alireza Moazeni**, Ke Li  
+*Submitted to CVPR 2026*
+
+---
+
 ### 2023
 
 **PAPR: Proximity Attention Point Rendering**  
@@ -16,7 +36,9 @@ Yanshu Zhang\*, Shichong Peng\*, **Alireza Moazeni**, Ke Li
 *Neural Information Processing Systems (NeurIPS)* - **Spotlight**  
 [[Paper]](https://arxiv.org/abs/2307.11086) [[Project Page]](https://zvict.github.io/papr/) [[Code]](https://github.com/zvict/papr)
 
-Learning accurate and parsimonious point cloud representations of scene surfaces from scratch remains a challenge in 3D representation learning. We propose Proximity Attention Point Rendering (PAPR), a novel method that consists of a point-based scene representation and a differentiable renderer.
+Learning accurate and parsimonious point cloud representations of scene surfaces from scratch remains a challenge in 3D representation learning. We propose Proximity Attention Point Rendering (PAPR), a novel method that consists of a point-based scene representation and a differentiable renderer. PAPR effectively learns point cloud positions to represent the correct scene geometry and captures fine texture details while using only a parsimonious set of points.
+
+---
 
 ### 2022
 
@@ -25,5 +47,5 @@ Shichong Peng, **Alireza Moazeni**, Ke Li
 *Neural Information Processing Systems (NeurIPS)* - **Spotlight**  
 [[Paper]](https://openreview.net/pdf?id=5pvB6IH_9UZ) [[Project Page]](https://github.com/niopeng/CHIMLE/) [[Code]](https://github.com/niopeng/CHIMLE/tree/main/code)
 
-A new method to generate diverse output images from the same input image. We leverage Implicit Maximum Likelihood Estimation (IMLE) which can overcome mode collapse fundamentally. CHIMLE significantly outperforms the prior best IMLE, GAN and diffusion-based methods.
+A new method to generate diverse output images from the same input image. We leverage Implicit Maximum Likelihood Estimation (IMLE) which can overcome mode collapse fundamentally. CHIMLE significantly outperforms the prior best IMLE, GAN and diffusion-based methods in terms of image fidelity and mode coverage across multiple image-to-image translation tasks.
 

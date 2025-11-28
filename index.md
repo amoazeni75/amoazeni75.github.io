@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate in Computer Science at <a href='https://www.sfu.ca/'>Simon Fraser University</a>
+subtitle: Ph.D. Student in Computer Science at <a href='https://www.sfu.ca/'>Simon Fraser University</a>
 
 profile:
   align: right
@@ -10,7 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Simon Fraser University</p>
-    <p>Vancouver, BC, Canada</p>
+    <p>Burnaby, BC, Canada</p>
+    <p>Phone: (604) 720-9283</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -18,11 +19,21 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a Ph.D. student in Computing Science at [Simon Fraser University](https://www.sfu.ca/) in Vancouver, Canada.
+I'm a Ph.D. student in Computer Science at [Simon Fraser University](https://www.sfu.ca/) in Burnaby, British Columbia, Canada, advised by [Prof. Ke Li](http://www.sfu.ca/~keli/).
 
-My research interests are in **Computer Vision**, **Machine Learning**, **Generative Models**, and **Reinforcement Learning**.
+## Research Interests
 
-I focus on developing novel approaches for 3D representation learning, point-based rendering, and multimodal conditional image synthesis. My work combines theoretical insights with practical applications in computer vision and deep learning.
+My research focuses on:
+- **Computer Vision & 3D Neural Rendering** - Point-based neural rendering, intrinsic decomposition, and 3D scene editing
+- **Generative Modeling & Generative AI** - Diffusion models, conditional image synthesis, and implicit maximum likelihood estimation
+- **Self-Supervised & Unsupervised Representation Learning** - Masked image modeling and uncertainty quantification
+- **Large Language Models & Natural Language Interfaces** - LLM distillation, efficient inference, and natural language-to-UI generation
 
-Before joining SFU, I completed my B.Sc. in Computer Engineering (Artificial Intelligence and Computer Networks) and Electrical Engineering (Control) at Amirkabir University of Technology in Tehran, Iran, where I ranked in the top 5% of my class.
+I develop novel approaches for efficient 3D neural rendering, particularly point-based methods for scene representation and editing. My work spans from fundamental research in generative modeling to practical applications in industrial and medical domains.
+
+## Background
+
+Before joining SFU, I completed my B.Sc. in Computer Engineering (with a focus on Artificial Intelligence and Computer Networks) and a second degree in Electrical Engineering (Control) at Amirkabir University of Technology in Tehran, Iran. I graduated with a GPA of 18.40/20 (3.84/4.00), ranking in the top 5% of my class.
+
+Currently, I also work part-time as a Machine Learning Specialist and Team Leader at Borealis Research and Inventu Research Inc., where I lead applied ML projects across embedded, medical, and cloud platforms.
 
