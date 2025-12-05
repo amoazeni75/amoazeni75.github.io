@@ -2,14 +2,14 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected research projects
+description: Research and industrial projects
 nav: true
 nav_order: 3
 ---
 
 ## Research Projects
 
-### Generative Recurrent Dynamic Range Extension
+<!-- ### Generative Recurrent Dynamic Range Extension
 
 **Goal:** Single-image HDR reconstruction without multi-exposure stacks
 
@@ -27,7 +27,7 @@ nav_order: 3
 - Designed a parallel decoding scheme that reduces latency while preserving the teacher's distribution, diversity, and downstream performance
 - Achieves significant speedup without sacrificing generation quality
 
----
+--- -->
 
 ### Image2Blocks: Reconstructing Images in 3D using Cuboids
 

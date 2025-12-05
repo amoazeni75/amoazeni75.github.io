@@ -43,7 +43,7 @@
 
 **Existing Publications:** (Enhanced descriptions)
 - PAPR: Proximity Attention Point Rendering (NeurIPS 2023, Spotlight)
-- CHIMLE (NeurIPS 2022, Spotlight)
+- CHIMLE (NeurIPS 2022)
 
 ### 4. Homepage Bio
 ✅ **Completely rewritten** with:
@@ -75,8 +75,6 @@
   - Computational geometry work
 
 **Research Projects:**
-- ✅ Generative Recurrent Dynamic Range Extension
-- ✅ IMLE-LLM: Speeding up LLMs
 - ✅ Image2Blocks: 3D Reconstruction
 - ✅ Text-Guided Image-to-Image Translation
 
@@ -95,10 +93,8 @@
 ✅ Created `/projects/` page with:
 
 **Research Projects:**
-1. Generative Recurrent Dynamic Range Extension
-2. IMLE-LLM: Speeding up LLMs with IMLE
-3. Image2Blocks: Reconstructing images in 3D using cuboids
-4. Text-Guided Diverse Image-To-Image Translation
+1. Image2Blocks: Reconstructing images in 3D using cuboids
+2. Text-Guided Diverse Image-To-Image Translation
 
 **Industrial Projects:**
 1. IoT2Cloud Platform
@@ -113,7 +109,6 @@
 
 **Existing:**
 - NeurIPS 2023 Spotlight acceptance (PAPR)
-- NeurIPS 2022 Spotlight acceptance (CHIMLE)
 - Helmut & Hugo Eppich Family Scholarship
 
 ### 8. Navigation Updates

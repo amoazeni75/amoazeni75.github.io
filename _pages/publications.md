@@ -7,28 +7,6 @@ nav: true
 nav_order: 1
 ---
 
-## Publications
-
-### Preprints & Under Review
-
-**PAPR Cut: Runtime Optimizations for Efficient Point-Based Neural Rendering**  
-**Alireza Moazeni**, George Shramko, Shichong Peng, Yanshu Zhang, Ke Li  
-*Preprint*
-
-**Intrinsic PAPR for Point-level 3D Scene Albedo and Shading Editing**  
-**Alireza Moazeni**, Shichong Peng, Yanshu Zhang, Chiraq Vashist, Ke Li  
-*Submitted to CVPR 2026*
-
-**PROSE: Point Rendering of Sparse-Controlled Edits to Static Scenes**  
-Yanshu Zhang, Shichong Peng, Mehran Aghabozorgi, **Alireza Moazeni**, Ke Li  
-*Submitted to CVPR 2026*
-
-**Illuminating Uncertainty in Masked Image Models**  
-Tristan Engst, **Alireza Moazeni**, Ke Li  
-*Submitted to CVPR 2026*
-
----
-
 ### 2023
 
 **PAPR: Proximity Attention Point Rendering**  
@@ -44,7 +22,7 @@ Learning accurate and parsimonious point cloud representations of scene surfaces
 
 **CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis**  
 Shichong Peng, **Alireza Moazeni**, Ke Li  
-*Neural Information Processing Systems (NeurIPS)* - **Spotlight**  
+*Neural Information Processing Systems (NeurIPS)*
 [[Paper]](https://openreview.net/pdf?id=5pvB6IH_9UZ) [[Project Page]](https://github.com/niopeng/CHIMLE/) [[Code]](https://github.com/niopeng/CHIMLE/tree/main/code)
 
 A new method to generate diverse output images from the same input image. We leverage Implicit Maximum Likelihood Estimation (IMLE) which can overcome mode collapse fundamentally. CHIMLE significantly outperforms the prior best IMLE, GAN and diffusion-based methods in terms of image fidelity and mode coverage across multiple image-to-image translation tasks.

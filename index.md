@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Computer Science at <a href='https://www.sfu.ca/'>Simon Fraser University</a>
+subtitle: 
 
 profile:
   align: right
@@ -11,12 +11,11 @@ profile:
   more_info: >
     <p>Simon Fraser University</p>
     <p>Burnaby, BC, Canada</p>
-    <p>Phone: (604) 720-9283</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # disable theme default icons; we will render custom ones below
 ---
 
 I'm a Ph.D. student in Computer Science at [Simon Fraser University](https://www.sfu.ca/) in Burnaby, British Columbia, Canada, advised by [Prof. Ke Li](http://www.sfu.ca/~keli/).
@@ -35,5 +34,16 @@ I develop novel approaches for efficient 3D neural rendering, particularly point
 
 Before joining SFU, I completed my B.Sc. in Computer Engineering (with a focus on Artificial Intelligence and Computer Networks) and a second degree in Electrical Engineering (Control) at Amirkabir University of Technology in Tehran, Iran. I graduated with a GPA of 18.40/20 (3.84/4.00), ranking in the top 5% of my class.
 
-Currently, I also work part-time as a Machine Learning Specialist and Team Leader at Borealis Research and Inventu Research Inc., where I lead applied ML projects across embedded, medical, and cloud platforms.
+<div class="social">
+  <div class="contact-icons">
+    {% for item in site.data.social %}
+      <a href="{{ item.url }}" title="{{ item.title }}" target="_blank">
+        <i class="{{ item.icon }}"></i>
+      </a>
+    {% endfor %}
+  </div>
+  <div class="contact-note">
+    {{ site.contact_note }}
+  </div>
+</div>
 

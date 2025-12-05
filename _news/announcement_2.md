@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our paper "CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis" was accepted at NeurIPS 2022 as a Spotlight presentation!
+Our paper "CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis" was accepted at NeurIPS 2022!
 

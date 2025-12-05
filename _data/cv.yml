@@ -3,10 +3,6 @@
   contents:
     - name: Full Name
       value: Alireza Moazeni
-    - name: Email
-      value: sam62@sfu.ca
-    - name: Phone
-      value: (604) 720-9283
     - name: Website
       value: amoazeni75.github.io
     - name: Research Interests
@@ -21,7 +17,6 @@
       description:
         - "GPA: 4.17/4.33"
         - "Supervisor: Prof. Ke Li"
-        - Focus on Computer Vision, 3D Neural Rendering, and Generative Modeling
         
     - title: Bachelor of Science in Computer Engineering & Electrical Engineering
       institution: Amirkabir University of Technology (AUT), Tehran, Iran
@@ -42,19 +37,19 @@
         - "Authors: Alireza Moazeni, George Shramko, Shichong Peng, Yanshu Zhang, Ke Li"
 
     - title: "Intrinsic PAPR for Point-level 3D Scene Albedo and Shading Editing"
-      year: 2026
+      year: Submitted to CVPR 2026
       description:
         - "Authors: Alireza Moazeni, Shichong Peng, Yanshu Zhang, Chiraq Vashist, Ke Li"
         - Submitted to CVPR 2026
 
     - title: "PROSE: Point Rendering of Sparse-Controlled Edits to Static Scenes"
-      year: 2026
+      year: Submitted to ICLR 2026
       description:
         - "Authors: Yanshu Zhang, Shichong Peng, Mehran Aghabozorgi, Alireza Moazeni, Ke Li"
         - Submitted to CVPR 2026
 
     - title: "Illuminating Uncertainty in Masked Image Models"
-      year: 2026
+      year: Submitted to CVPR 2026
       description:
         - "Authors: Tristan Engst, Alireza Moazeni, Ke Li"
         - Submitted to CVPR 2026
@@ -69,13 +64,13 @@
       year: 2022
       description:
         - "Authors: Shichong Peng, Alireza Moazeni, Ke Li"
-        - Neural Information Processing Systems (NeurIPS) - Spotlight paper
+        - Neural Information Processing Systems (NeurIPS)
 
 - title: Industrial Experience
   type: time_table
   contents:
     - title: Machine Learning Specialist and Team Leader (Part-time)
-      institution: Borealis Research and Inventu Research Inc., British Columbia, Canada
+      institution: Canada
       year: Oct 2021 - Present
       description:
         - Lead ML specialist and team lead on multiple applied ML projects spanning embedded, medical, and cloud platforms
@@ -85,7 +80,7 @@
         - Optimized and deployed ML and LLM models under tight computational and memory constraints, improving reliability and latency for production use
 
     - title: A.I. Developer and Product Manager
-      institution: i-Cliqq Company, Tehran, Iran - Zhuji, China
+      institution: i-Cliqq Company, Shanghai, UAE.
       year: May 2016 - Aug 2020
       description:
         - Developed and launched Maya i-Box, an intelligent embroidery design system that converts photographs and touchscreen sketches into optimized DST stitch files for industrial embroidery and sequins machines
@@ -95,15 +90,6 @@
 - title: Research Projects
   type: nested_list
   contents:
-    - title: Generative Recurrent Dynamic Range Extension
-      items:
-        - Formulate single-image HDR reconstruction as iteratively extending dynamic range by one exposure value
-        - Enable recurrent network to recover complex scenes without multi-exposure stacks
-        - Train on mix of HDR and RAW data to learn generative prior that hallucinates realistic structure in large clipped regions
-    - title: IMLE-LLM - Speeding up LLMs with IMLE
-      items:
-        - Use implicit maximum likelihood estimation (IMLE) to distill teacher LLM into conditional student that jointly predicts K future tokens
-        - Design parallel decoding scheme that reduces latency while preserving teacher's distribution, diversity, and downstream performance
     - title: Image2Blocks - Reconstructing images in 3D using cuboids
       items:
         - Formulate monocular image understanding as reconstructing scenes using 3D cuboid primitives rather than only 2D attributes
@@ -160,13 +146,13 @@
       items:
         - Top 5% among 100 undergraduate students in Computer Engineering and IT Department, Amirkabir University of Technology, Iran
 
-    - year: 2020
-      items:
-        - Direct Admission to graduate school (Ph.D.) in Computer Science - Artificial Intelligence, Simon Fraser University
+    # - year: 2020
+    #   items:
+    #     - Direct Admission to graduate school (Ph.D.) in Computer Science - Artificial Intelligence, Simon Fraser University
 
-    - year: 2020
-      items:
-        - Direct Admission to graduate school (M.Sc.) in Computer Engineering - Artificial Intelligence (without nationwide entrance exam), Amirkabir University of Technology
+    # - year: 2020
+    #   items:
+    #     - Direct Admission to graduate school (M.Sc.) in Computer Engineering - Artificial Intelligence (without nationwide entrance exam), Amirkabir University of Technology
 
     - year: 2017
       items:

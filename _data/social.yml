@@ -1,0 +1,20 @@
+## Social / contact icons shown in the footer and about page.
+## Add or remove items to control which icons appear and where they link.
+## Icon classes come from Font Awesome (fa-*) or Academicons (ai-*).
+
+- title: Email
+  icon: fa-solid fa-envelope
+  url: mailto:alisampo1375@gmail.com
+
+- title: GitHub
+  icon: fab fa-github
+  url: https://github.com/amoazeni75
+
+- title: LinkedIn
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/s-alireza-moazeni/
+
+- title: Google Scholar
+  icon: ai ai-google-scholar
+  url: https://scholar.google.com/citations?user=KjSsypYAAAAJ
+
