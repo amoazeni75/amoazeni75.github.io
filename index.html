@@ -1,0 +1,441 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Alireza Moazeni</title>
+
+  <!-- Open all links in a new tab by default -->
+  <base target="_blank">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alireza Moazeni — Ph.D. student at Simon Fraser University working on efficient 3D neural rendering and generative modeling.">
+  <meta name="author" content="Alireza Moazeni">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alireza Moazeni">
+  <meta property="og:description" content="Ph.D. student at Simon Fraser University — efficient 3D neural rendering and generative modeling.">
+  <meta property="og:image" content="images/prof_pic.jpg">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=2">
+  <link rel="stylesheet" type="text/css" href="styles_responsive.css?v=2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <link href="https://fonts.cdnfonts.com/css/optima" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Flat Material Design layer (loaded last to override the base template) -->
+  <link rel="stylesheet" type="text/css" href="material.css?v=4">
+
+  <script src="https://cdn.jsdelivr.net/npm/prismjs-bibtex@2.0.1/prism-bibtex.min.js"></script>
+  <link rel="icon" type="image/png" href="images/fav-icon.png">
+
+</head>
+
+<body>
+    <a id="top"></a>
+    <nav class="topnav">
+      <a class="brand" href="#top" target="_self">Alireza Moazeni</a>
+      <div class="navlinks">
+        <a href="#about" target="_self">About</a>
+        <a href="#news" target="_self">News</a>
+        <a href="#publications" target="_self">Publications</a>
+        <a href="#experience" target="_self">Experience</a>
+        <a href="#skills" target="_self">Skills</a>
+        <a href="#honors" target="_self">Awards</a>
+      </div>
+    </nav>
+    <div class="container_onecolumn">
+        <div class="container">
+            <div class="item text" id="about">
+              <p>
+                <name>Alireza Moazeni</name>
+              </p>
+              <p>Hi there! I am a Ph.D. student in the <a href="https://sfuapex.com/">APEX Lab</a>
+                at <a href="https://www.sfu.ca/">Simon Fraser University</a>,
+                advised by <a href="https://www.sfu.ca/~keli/">Ke Li</a>.
+                Before that, I earned my B.Sc. in Computer Engineering at
+                <a href="https://en.wikipedia.org/wiki/Amirkabir_University_of_Technology">Amirkabir University of Technology</a>
+                in Tehran, Iran, with a double major in Electrical Engineering.
+              </p>
+              <p>My research focuses on:</p>
+              <ul style="margin-top:6px; margin-bottom:0; padding-left:1.3em; line-height:1.7em;">
+                <li>3D neural rendering &mdash; point-based reconstruction, rendering, and editing of 3D scenes</li>
+                <li>Generative modeling &mdash; IMLE, diffusion, and world models for image synthesis and control</li>
+                <li>Efficient &amp; applied ML &mdash; deploying ML/LLM systems under tight compute constraints</li>
+              </ul>
+              <p>
+                <a href="mailto:alisampo1375@gmail.com"><i class="fa fa-paper-plane"></i>&nbsp&nbspEmail</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=KjSsypYAAAAJ"><i class="ai ai-google-scholar ai-fw" style="font-size: 1.3em;position: relative; top:0.1em;margin-left: -0.3em;"></i>Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/amoazeni75"><i class="fa fa-github"></i>&nbsp&nbspGithub</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/s-alireza-moazeni/"><i class="fa fa-linkedin"></i>&nbsp&nbspLinkedIn</a> &nbsp/&nbsp
+                <a href="https://twitter.com/Moazeni_Alireza"><i class="fa fa-twitter"></i>&nbsp&nbspTwitter</a>
+              </p>
+
+              <div class="text2" style="margin-top:50px;" id="news">
+                <heading>News</heading>
+                <ul style="margin-top:8px; margin-bottom:0; padding-left:1.3em; line-height:1.7em;">
+                  <li> Two papers &mdash; <a href="#pub-intrinsic" target="_self"><em>Tackling Misattribution in 3D Intrinsic Decomposition</em></a> and <a href="#pub-pcore" target="_self"><em>P-CORE</em></a> &mdash; accepted to <strong>ECCV 2026</strong>!</li>
+                  <li> <a href="#pub-wimle" target="_self"><em>WIMLE</em></a> accepted to <strong>ICLR 2026</strong>.</li>
+                  <li> Selected for the <strong>Lab2Market</strong> National Commercialization Program (Validate Stream), 2025.</li>
+                  <li> <a href="#pub-papr" target="_self"><em>PAPR</em></a> accepted as a <span style="color:red">Spotlight</span>&nbsp;🌟 at <strong>NeurIPS 2023</strong>.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="item image">
+              <img src="images/prof_pic.jpg" alt="Alireza Moazeni">
+            </div>
+          </div>
+
+
+            <div class="item text2" style="margin-top:40px;" id="publications">
+            <heading>Publications</heading>
+            </div>
+
+            <div class="container2" id="pub-intrinsic">
+              <div class="item image2">
+                  <img src='images/intrinsic-papr.png' width=180; height="auto">
+              </div>
+              <div class="item text2">
+              <a href="https://arxiv.org/abs/2407.00500">
+                  <font color=#1772d0>  <papertitle>Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering</papertitle></font>
+              </a>
+              <br>
+              <strong>Alireza Moazeni</strong>,
+              <a href=https://sites.google.com/view/niopeng/home>Shichong Peng</a>,
+              <a href=https://zvict.github.io>Yanshu Zhang</a>,
+              <a href=https://serchirag.github.io>Chirag Vashist</a>,
+              <a href=https://www.sfu.ca/~keli>Ke Li</a>
+              <br>
+              <em>ECCV</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2407.00500">arXiv</a> /
+<button class="link bib-button" onclick="showBib('IntrinsicPAPR_bib', this)">BibTex</button>
+<div id='IntrinsicPAPR_bib' hidden>
+<pre><code>@inproceedings{moazeni2026misattribution,
+  title={Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering},
+  author={Alireza Moazeni and Shichong Peng and Yanshu Zhang and Chirag Vashist and Ke Li},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2026}
+}</code></pre>
+</div>
+              <p></p>
+              <p>
+                <span class="tldr-line"><span class="tldr-label">TL;DR</span>Resolving misattribution in point-based 3D intrinsic decomposition</span><br>
+                Intrinsic PAPR identifies and fixes the misattribution issue in point-based inverse rendering,
+                where individual primitives learn incorrect appearance despite producing correct aggregated
+                renders. Using proximity attention point rendering for direct per-point supervision, it enables
+                accurate, view-consistent albedo and shading editing.
+              </p>
+              </div>
+            </div>
+
+        <hr>
+
+            <div class="container2" id="pub-pcore">
+              <div class="item image2">
+                  <img src='images/rendered_video_og-v2.gif' width=180; height="auto">
+              </div>
+              <div class="item text2">
+              <a href="https://zvict.github.io/p-core/">
+                  <font color=#1772d0>  <papertitle>P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing</papertitle></font>
+              </a>
+              <br>
+              <a href=https://zvict.github.io>Yanshu Zhang</a>,
+              <a href=https://sites.google.com/view/niopeng/home>Shichong Peng</a>,
+              <a href=https://github.com/mehranagh20>Mehran Aghabozorgi</a>,
+              <strong>Alireza Moazeni</strong>,
+              <a href=https://www.sfu.ca/~keli>Ke Li</a>
+              <br>
+              <em>ECCV</em>, 2026
+              <br>
+              <a href="https://zvict.github.io/p-core/">Project Page</a> /
+              <a href="https://zvict.github.io/p-core/static/pdfs/pcore_eccv2026.pdf">Paper</a> /
+<button class="link bib-button" onclick="showBib('PCORE_bib', this)">BibTex</button>
+<div id='PCORE_bib' hidden>
+<pre><code>@inproceedings{zhang2026pcore,
+  title={P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing},
+  author={Yanshu Zhang and Shichong Peng and Mehran Aghabozorgi and Alireza Moazeni and Ke Li},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2026}
+}</code></pre>
+</div>
+              <p></p>
+              <p>
+                <span class="tldr-line"><span class="tldr-label">TL;DR</span>Supervise surface prediction of deformed points by the deformed surface</span><br>
+                P-CORE lets attention-based point representations undergo large non-rigid deformations
+                without holes or tears by enforcing that the predicted surface stays consistent before
+                and after random deformations, enabling zero-shot editing with substantially fewer artifacts.
+              </p>
+              </div>
+            </div>
+
+        <hr>
+
+            <div class="container2" id="pub-wimle">
+              <div class="item image2">
+                  <img src='images/wimle.jpg' width=180; height="auto">
+              </div>
+              <div class="item text2">
+              <a href="https://mehranagh20.github.io/wimle/">
+                  <font color=#1772d0>  <papertitle>WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control</papertitle></font>
+              </a>
+              <br>
+              <a href=https://github.com/mehranagh20>Mehran Aghabozorgi</a>,
+              <strong>Alireza Moazeni</strong>,
+              <a href=https://zvict.github.io>Yanshu Zhang</a>,
+              <a href=https://www.sfu.ca/~keli>Ke Li</a>
+              <br>
+              <em>ICLR</em>, 2026
+              <br>
+              <a href="https://mehranagh20.github.io/wimle/">Project Page</a> /
+              <a href="https://github.com/mehranagh20/wimle">Code</a> /
+              <a href="https://arxiv.org/abs/2602.14351">arXiv</a> /
+<button class="link bib-button" onclick="showBib('WIMLE_bib', this)">BibTex</button>
+<div id='WIMLE_bib' hidden>
+<pre><code>@inproceedings{aghabozorgi2026wimle,
+  title={{WIMLE}: Uncertainty-Aware World Models with {IMLE} for Sample-Efficient Continuous Control},
+  author={Mehran Aghabozorgi and Alireza Moazeni and Yanshu Zhang and Ke Li},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026}
+}</code></pre>
+</div>
+            <p></p>
+            <p>
+              <span class="tldr-line"><span class="tldr-label">TL;DR</span>Multi-modal world models with uncertainty-aware policy learning for model-based RL</span><br>
+              WIMLE learns stochastic, multi-modal world models using IMLE and weights synthetic
+              transitions by predictive confidence, achieving state-of-the-art sample efficiency
+              across 40 continuous-control tasks in DeepMind Control, HumanoidBench, and MyoSuite.
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+            <div class="container2" id="pub-papr">
+                <div class="item image2">
+                    <img src='images/papr-crop.gif' width=180; height="auto">
+                </div>
+                <div class="item text2">
+                <a href="https://zvict.github.io/papr/">
+                    <font color=#1772d0>  <papertitle>PAPR: Proximity Attention Point Rendering</papertitle></font>
+                </a>
+                <br>
+                <a href=https://zvict.github.io>Yanshu Zhang*</a>,
+                <a href=https://sites.google.com/view/niopeng/home>Shichong Peng*</a>,
+                <strong>Alireza Moazeni</strong>,
+                <a href=https://www.sfu.ca/~keli>Ke Li</a>
+                <br>
+                <em>NeurIPS</em>, 2023 (<span style="color:red">Spotlight</span> 🌟)
+                <br>
+                <a href="https://zvict.github.io/papr/">Project Page</a> /
+                <a href="https://github.com/zvict/papr">Code</a> /
+                <a href="https://arxiv.org/abs/2307.11086">arXiv</a> /
+                <a href="https://youtu.be/1atBGH_pDHY">Video</a> /
+<button class="link bib-button" onclick="showBib('PAPR_bib', this)">BibTex</button>
+<div id='PAPR_bib' hidden>
+<pre><code>@inproceedings{zhang2023papr,
+  title={PAPR: Proximity Attention Point Rendering},
+  author={Yanshu Zhang and Shichong Peng and Alireza Moazeni and Ke Li},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
+}</code></pre>
+</div>
+              <p></p>
+              <p>
+                <span class="tldr-line"><span class="tldr-label">TL;DR</span>Reconstruct and render point clouds using attention</span><br>
+                PAPR is a point-based surface representation that uses proximity attention to
+                interpolate between nearby points to rays for rendering high-quality images,
+                enabling non-volume-preserving geometry deformation by directly adjusting point
+                positions, and, unlike 3D Gaussian Splatting, it avoids creating holes while
+                preserving texture details after deformation.
+              </p>
+            </div>
+          </div>
+
+        <hr>
+
+            <div class="container2" id="pub-chimle">
+              <div class="item image2">
+                  <img src='images/chimle.gif' width=180; height="auto">
+              </div>
+              <div class="item text2">
+              <a href="https://openreview.net/pdf?id=5pvB6IH_9UZ">
+                  <font color=#1772d0>  <papertitle>CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis</papertitle></font>
+              </a>
+              <br>
+              <a href=https://sites.google.com/view/niopeng/home>Shichong Peng</a>,
+              <strong>Alireza Moazeni</strong>,
+              <a href=https://www.sfu.ca/~keli>Ke Li</a>
+              <br>
+              <em>NeurIPS</em>, 2022
+              <br>
+              <a href="https://openreview.net/pdf?id=5pvB6IH_9UZ">Paper</a> /
+              <a href="https://github.com/niopeng/CHIMLE/">Code</a> /
+<button class="link bib-button" onclick="showBib('CHIMLE_bib', this)">BibTex</button>
+<div id='CHIMLE_bib' hidden>
+<pre><code>@inproceedings{peng2022chimle,
+  title={CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis},
+  author={Shichong Peng and Alireza Moazeni and Ke Li},
+  booktitle={Neural Information Processing Systems (NeurIPS)},
+  year={2022}
+}</code></pre>
+</div>
+              <p></p>
+              <p>
+                <span class="tldr-line"><span class="tldr-label">TL;DR</span>High-fidelity multimodal conditional image synthesis with hierarchical IMLE</span><br>
+                CHIMLE generates diverse, high-fidelity outputs for conditional image synthesis without the
+                mode collapse of GANs. By introducing conditional hierarchical sampling into IMLE, it produces
+                high-quality images with far fewer samples, improving FID by 36.9% on average over the prior
+                best IMLE method across night-to-day, 16&times; super-resolution, colourization, and decompression.
+              </p>
+              </div>
+            </div>
+
+        <hr>
+
+            <div class="item text2" id="experience">
+            <heading class="sec-title">Industry Experience</heading>
+
+              <div class="exp-entry">
+                <div class="exp-head">
+                  <span class="exp-title">Machine Learning Specialist &amp; Team Leader</span>
+                  <span class="exp-date">Oct 2021 &ndash; Present</span>
+                </div>
+                <div class="exp-org"><a href="http://www.borealisresearch.com/">Borealis Research &amp; Inventu Research Inc.</a> &middot; British Columbia, Canada</div>
+                <ul class="exp-list">
+                  <li>Lead an LLM-powered, <strong>agentic</strong> pipeline (IoT2Cloud API) that turns natural-language requests into UI components via <strong>retrieval-augmented generation</strong> and tool use, with a custom evaluation framework.</li>
+                  <li>Build transformer-based, on-device <strong>NLP/NLU</strong> for a conversational voice assistant &mdash; speech recognition, intent classification, semantic parsing &mdash; with fine-tuning, distillation, and quantization for tight latency.</li>
+                  <li>Own the end-to-end <strong>ML lifecycle</strong> &mdash; data analysis, training, A/B testing, scalable serving, and MLOps &mdash; with the Python stack, PyTorch, Docker, and AWS; lead and mentor a small cross-functional team.</li>
+                </ul>
+              </div>
+
+              <div class="exp-entry">
+                <div class="exp-head">
+                  <span class="exp-title">A.I. Developer &amp; Product Manager</span>
+                  <span class="exp-date">May 2016 &ndash; May 2020</span>
+                </div>
+                <div class="exp-org"><a href="https://i-cliqq.com">i-Cliqq (Intelligence Click)</a> &middot; Sharjah, UAE</div>
+                <ul class="exp-list">
+                  <li>Built and launched <strong>Maya i-Box</strong>, an intelligent embroidery system converting photos into optimized stitch files; owned the full <strong>computer-vision</strong> pipeline in C++ on embedded hardware.</li>
+                  <li>Designed graph-based optimization and computational-geometry algorithms for shape decomposition, delivering production-grade industrial automation.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="item text2" id="skills">
+            <heading class="sec-title">Skills</heading>
+
+              <div class="skill-group">
+                <div class="skill-group-title">LLMs &amp; Agents</div>
+                <div class="chips">
+                  <span class="chip">LLMs</span>
+                  <span class="chip">Conversational AI</span>
+                  <span class="chip">RAG</span>
+                  <span class="chip">Agentic pipelines</span>
+                  <span class="chip">Tool use</span>
+                  <span class="chip">Prompt engineering</span>
+                  <span class="chip">Fine-tuning (LoRA/QLoRA)</span>
+                  <span class="chip">Distillation</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <div class="skill-group-title">NLP &amp; Search</div>
+                <div class="chips">
+                  <span class="chip">NLP/NLU</span>
+                  <span class="chip">Intent classification</span>
+                  <span class="chip">Semantic parsing</span>
+                  <span class="chip">Vector search (FAISS)</span>
+                  <span class="chip">Re-ranking</span>
+                  <span class="chip">Transformers</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <div class="skill-group-title">Classical ML &amp; Statistics</div>
+                <div class="chips">
+                  <span class="chip">Pandas</span>
+                  <span class="chip">NumPy</span>
+                  <span class="chip">scikit-learn</span>
+                  <span class="chip">A/B testing</span>
+                  <span class="chip">Hypothesis testing</span>
+                  <span class="chip">Feature engineering</span>
+                  <span class="chip">Evaluation</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <div class="skill-group-title">MLOps, Cloud &amp; Systems</div>
+                <div class="chips">
+                  <span class="chip">AWS</span>
+                  <span class="chip">Docker</span>
+                  <span class="chip">Kubernetes</span>
+                  <span class="chip">CI/CD</span>
+                  <span class="chip">WandB</span>
+                  <span class="chip">Slurm</span>
+                  <span class="chip">Distributed training</span>
+                  <span class="chip">Mixed precision</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <div class="skill-group-title">Programming &amp; Frameworks</div>
+                <div class="chips">
+                  <span class="chip">Python</span>
+                  <span class="chip">C++17</span>
+                  <span class="chip">Java</span>
+                  <span class="chip">SQL</span>
+                  <span class="chip">PyTorch</span>
+                  <span class="chip">TensorFlow</span>
+                  <span class="chip">JAX</span>
+                  <span class="chip">CUDA</span>
+                  <span class="chip">Triton</span>
+                  <span class="chip">Linux</span>
+                  <span class="chip">Git</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="item text2" style="margin-top:40px;" id="honors">
+            <heading class="sec-title">Honors &amp; Awards</heading>
+            <ul style="margin-top:10px; margin-bottom:0; padding-left:1.3em; line-height:1.7em;">
+              <li><strong>2025</strong> &mdash; Lab2Market National Commercialization Program (Validate Stream), Canada</li>
+              <li><strong>2023</strong> &mdash; Helmut &amp; Hugo Eppich Family Graduate Scholarship, Simon Fraser University</li>
+              <li><strong>2020</strong> &mdash; Top 5% in Computer Engineering &amp; IT, Amirkabir University of Technology</li>
+              <li><strong>2015</strong> &mdash; Top 0.15% in the Iranian Nationwide University Entrance Exam (~250,000 applicants)</li>
+            </ul>
+            </div>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right; color:#999;">
+                 &copy; 2026 Alireza Moazeni
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+    <button id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top"><i class="fa fa-chevron-up"></i></button>
+
+<script type="text/javascript" src="show_bib.js?v=2"></script>
+<script>
+  (function () {
+    var btn = document.getElementById('backToTop');
+    function onScroll() {
+      if (window.pageYOffset > 300) { btn.classList.add('visible'); }
+      else { btn.classList.remove('visible'); }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('load', onScroll);
+    btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    onScroll();
+  })();
+</script>
+</body>
+</html>

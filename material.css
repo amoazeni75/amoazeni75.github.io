@@ -1,0 +1,298 @@
+/* ============================================================
+   Flat Material Design layer  —  Alireza Moazeni
+   Loaded last so it overrides the base template.
+   ============================================================ */
+
+:root {
+  --md-primary: #1976d2;        /* Blue 700 */
+  --md-primary-dark: #1565c0;   /* Blue 800 */
+  --md-accent: #ff6d00;         /* Orange A700 */
+  --md-bg: #f4f5f7;             /* canvas */
+  --md-surface: #ffffff;        /* cards */
+  --md-text: #212121;
+  --md-text-secondary: #5f6368;
+  --md-divider: #e0e0e0;
+
+  --md-elev-1: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.08);
+  --md-elev-2: 0 3px 6px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.10);
+  --md-elev-4: 0 2px 4px -1px rgba(0,0,0,.20), 0 4px 5px rgba(0,0,0,.14), 0 1px 10px rgba(0,0,0,.12);
+  --md-elev-6: 0 3px 5px -1px rgba(0,0,0,.20), 0 6px 10px rgba(0,0,0,.14), 0 1px 18px rgba(0,0,0,.12);
+}
+
+/* ---- Base / typography (Roboto) ---- */
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--md-bg);
+  color: var(--md-text);
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, a, li, td, th, tr, strong, span, em, button, conf {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+p, li, td { font-size: 15.5px; color: var(--md-text); }
+
+a { color: var(--md-primary); text-decoration: none; transition: color .15s ease; }
+a:hover, a:focus { color: var(--md-accent); text-decoration: none; }
+
+name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: .2px;
+  color: var(--md-text);
+}
+
+heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--md-text);
+}
+
+papertitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--md-text);
+}
+papertitle:hover { color: var(--md-primary); }
+
+/* ---- Material app bar (top nav) ---- */
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  height: 64px;
+  padding: 0 24px;
+  background: var(--md-primary);
+  border-bottom: none;
+  box-shadow: var(--md-elev-4);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.topnav .brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: .3px;
+  color: #fff;
+}
+.topnav .brand:hover { color: #fff; opacity: .92; }
+.topnav .navlinks { display: flex; align-items: center; flex-wrap: wrap; }
+.topnav .navlinks a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.92);
+  margin-left: 4px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background .15s ease, color .15s ease;
+}
+.topnav .navlinks a:hover { color: #fff; background: rgba(255,255,255,.16); }
+
+/* ---- Page wrapper: transparent over the grey canvas ---- */
+.container_onecolumn {
+  max-width: 980px;
+  margin: 24px auto 56px;
+  padding: 0 16px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* ---- Hero card (about + photo) ---- */
+.container {
+  background: var(--md-surface);
+  border-radius: 8px;
+  box-shadow: var(--md-elev-1);
+  padding: 8px;
+  margin-bottom: 24px;
+  grid-template-columns: 58% 42%;
+}
+.container .item { padding: 18px; }
+.image img { border-radius: 12px; box-shadow: var(--md-elev-2); }
+
+/* News lives in the hero card's left column */
+#news { border-top: 1px solid var(--md-divider); padding-top: 16px; }
+#news heading { font-size: 22px; }
+
+/* ---- Section title (Publications) ---- */
+#publications {
+  text-align: left;
+  padding: 6px 4px;
+  margin-top: 6px !important;
+  margin-bottom: 6px;
+}
+#publications heading { display: inline-block; }
+#publications heading::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin-top: 8px;
+  background: var(--md-primary);
+  border-radius: 2px;
+}
+
+/* ---- Publication cards ---- */
+hr { display: none; }
+.container2 {
+  background: var(--md-surface);
+  border-radius: 8px;
+  box-shadow: var(--md-elev-1);
+  padding: 14px;
+  margin: 0 auto 20px;
+  max-width: 980px;
+  grid-template-columns: 28% 72%;
+  scroll-margin-top: 84px;
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+.container2:hover { box-shadow: var(--md-elev-6); transform: translateY(-2px); }
+.container2 .item { padding: 8px 14px; }
+.image2 img { border-radius: 4px; box-shadow: var(--md-elev-1); }
+.text2 p { color: var(--md-text-secondary); }
+
+/* ---- Card sections (awards, experience, skills) ---- */
+#honors,
+#experience,
+#skills {
+  background: var(--md-surface);
+  border-radius: 8px;
+  box-shadow: var(--md-elev-1);
+  padding: 22px 24px;
+  margin-top: 24px !important;
+}
+
+/* ---- Material text button (BibTeX) ---- */
+button.link, .bib-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--md-primary);
+  background: transparent;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background .15s ease, color .15s ease;
+}
+button.link:hover, .bib-button:hover {
+  color: var(--md-primary-dark);
+  background: rgba(25,118,210,.10);
+}
+
+/* code / bibtex block */
+pre {
+  background: #f5f7fa;
+  border: 1px solid var(--md-divider);
+  border-radius: 6px;
+}
+
+/* ---- TL;DR chip + line ---- */
+.tldr-label {
+  color: #fff;
+  background: var(--md-primary);
+  border-radius: 999px;
+  letter-spacing: .04em;
+}
+.tldr-line {
+  border-left: 3px solid var(--md-primary);
+  background: rgba(25,118,210,.06);
+  color: var(--md-text);
+  border-radius: 0 6px 6px 0;
+}
+
+/* ---- Footer ---- */
+.container_onecolumn table p { color: var(--md-text-secondary) !important; }
+
+/* ---- FAB (back to top) ---- */
+.back-to-top {
+  background: var(--md-accent);
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  box-shadow: var(--md-elev-6);
+}
+.back-to-top:hover { background: #f4511e; color: #fff; }
+
+/* sticky app bar (64px) anchor offsets */
+#about, #news, #publications, #experience, #skills, #honors { scroll-margin-top: 84px; }
+
+/* ---- Section title underline (shared) ---- */
+.sec-title { display: inline-block; }
+.sec-title::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin-top: 8px;
+  background: var(--md-primary);
+  border-radius: 2px;
+}
+
+/* ---- Industry experience (timeline entries) ---- */
+.exp-entry {
+  padding: 2px 0 2px 16px;
+  border-left: 3px solid var(--md-divider);
+  margin-top: 18px;
+  transition: border-color .15s ease;
+}
+.exp-entry:hover { border-left-color: var(--md-primary); }
+.exp-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+}
+.exp-title { font-weight: 500; font-size: 16.5px; color: var(--md-text); }
+.exp-date { font-size: 13px; color: var(--md-text-secondary); white-space: nowrap; }
+.exp-org { font-size: 14.5px; color: var(--md-text-secondary); margin-top: 2px; }
+.exp-list { margin: 8px 0 0; padding-left: 1.2em; }
+.exp-list li { color: var(--md-text-secondary); margin-bottom: 5px; line-height: 1.55; }
+
+/* ---- Skills (Material chips) ---- */
+.skill-group { margin-top: 16px; }
+.skill-group-title { font-weight: 500; font-size: 15px; color: var(--md-text); margin-bottom: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--md-primary-dark);
+  background: rgba(25,118,210,.09);
+  border: 1px solid rgba(25,118,210,.18);
+  padding: 5px 12px;
+  border-radius: 999px;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.chip:hover { background: var(--md-primary); color: #fff; border-color: var(--md-primary); }
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .topnav { height: auto; padding: 8px 14px; }
+  .topnav .brand { font-size: 18px; }
+  .topnav .navlinks a { margin-left: 2px; padding: 6px 8px; font-size: 12.5px; }
+  .container { grid-template-columns: 100%; }
+  .container .item { padding: 14px; }
+  .container2 { grid-template-columns: 100%; }
+  .container_onecolumn { padding: 0 10px; }
+  .back-to-top { right: 16px; bottom: 16px; }
+}
