@@ -76,7 +76,8 @@
               <div class="text2" style="margin-top:50px;" id="news">
                 <heading>News</heading>
                 <ul style="margin-top:8px; margin-bottom:0; padding-left:1.3em; line-height:1.7em;">
-                  <li> Two papers &mdash; <a href="#pub-intrinsic" target="_self"><em>Tackling Misattribution in 3D Intrinsic Decomposition</em></a> and <a href="#pub-pcore" target="_self"><em>P-CORE</em></a> &mdash; accepted to <strong>ECCV 2026</strong>!</li>
+                  <li> Two papers &mdash; <a href="#pub-intrinsic" target="_self"><em>Intrinsic-PAPR</em></a> and <a href="#pub-pcore" target="_self"><em>P-CORE</em></a> &mdash; accepted to <strong>ECCV 2026</strong>!</li>
+                  <li> <a href="#pub-piimle" target="_self"><em>&pi;-IMLE</em></a> accepted to <strong>IROS 2026</strong>!</li>
                   <li> Awarded the <strong>Helmut &amp; Hugo Eppich Family Graduate Scholarship</strong> &mdash; Summer 2026.</li>
                   <li> <a href="#pub-wimle" target="_self"><em>WIMLE</em></a> accepted to <strong>ICLR 2026</strong>.</li>
                   <li> Selected for the <strong>Lab2Market</strong> National Commercialization Program (Validate Stream), 2025.</li>
@@ -101,7 +102,7 @@
               </div>
               <div class="item text2">
               <a href="https://arxiv.org/abs/2407.00500">
-                  <font color=#1772d0>  <papertitle>Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering</papertitle></font>
+                  <font color=#1772d0>  <papertitle>Intrinsic-PAPR: Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering</papertitle></font>
               </a>
               <br>
               <strong>Alireza Moazeni</strong>,
@@ -116,7 +117,7 @@
 <button class="link bib-button" onclick="showBib('IntrinsicPAPR_bib', this)">BibTex</button>
 <div id='IntrinsicPAPR_bib' hidden>
 <pre><code>@inproceedings{moazeni2026misattribution,
-  title={Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering},
+  title={Intrinsic-PAPR: Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering},
   author={Alireza Moazeni and Shichong Peng and Yanshu Zhang and Chirag Vashist and Ke Li},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2026}
@@ -169,6 +170,51 @@
                 P-CORE lets attention-based point representations undergo large non-rigid deformations
                 without holes or tears by enforcing that the predicted surface stays consistent before
                 and after random deformations, enabling zero-shot editing with substantially fewer artifacts.
+              </p>
+              </div>
+            </div>
+
+        <hr>
+
+            <div class="container2" id="pub-piimle">
+              <div class="item image2">
+                  <img src='images/pi-imle.png' width=180; height="auto">
+              </div>
+              <div class="item text2">
+              <a href="https://kianhk6.github.io/pi-imle/">
+                  <font color=#1772d0>  <papertitle>&pi;-IMLE: Fast Single-Step Action Generation for Generalist Vision-Language-Action Policies</papertitle></font>
+              </a>
+              <br>
+              Kian Hosseinkhani,
+              George Shramko,
+              <a href=https://github.com/mehranagh20>Mehran Aghabozorgi</a>,
+              Qinhe Peng,
+              Jianing Qian,
+              Tristan Engst,
+              <strong>Alireza Moazeni</strong>,
+              <a href=https://www.engineering.upenn.edu/~dineshj/>Dinesh Jayaraman</a>,
+              <a href=https://www.sfu.ca/~keli>Ke Li</a>
+              <br>
+              <em>IROS</em>, 2026
+              <br>
+              <a href="https://kianhk6.github.io/pi-imle/">Project Page</a> /
+<button class="link bib-button" onclick="showBib('PiIMLE_bib', this)">BibTex</button>
+<div id='PiIMLE_bib' hidden>
+<pre><code>@inproceedings{hosseinkhani2026piimle,
+  title={$\pi$-IMLE: Fast Single-Step Action Generation for Generalist Vision-Language-Action Policies},
+  author={Kian Hosseinkhani and George Shramko and Mehran Aghabozorgi and Qinhe Peng and Jianing Qian and Tristan Engst and Alireza Moazeni and Dinesh Jayaraman and Ke Li},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2026}
+}</code></pre>
+</div>
+              <p></p>
+              <p>
+                <span class="tldr-line"><span class="tldr-label">TL;DR</span>Single-step action generation for VLA policies via conditional IMLE</span><br>
+                &pi;-IMLE replaces the slow iterative flow-matching action head of vision-language-action
+                policies with a single-step conditional IMLE generator, keeping the same VLM backbone while
+                cutting inference to a single forward pass. It delivers a 3.67&times; inference speedup and the
+                highest average success rate on the LIBERO benchmark, with 3.9&ndash;6.6&times; faster
+                real-robot rollouts.
               </p>
               </div>
             </div>
